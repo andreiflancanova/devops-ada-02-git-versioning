@@ -5,11 +5,11 @@ git config --list
 ```
 
 ```bash
-git config --global user.email "meu-email@xpto.com"
+git config --global user.email "your-email@xpto.com"
 ```
 
 ```bash
-git config --global user.name "Andrei"
+git config --global user.name "Your name"
 ```
 
 ```bash
@@ -29,5 +29,13 @@ git log
 ```
 
 ```bash
-git diff
+git log --name-status
+```
+
+```bash
+git diff --staged
+```
+
+```bash
+git diff --cached
 ```
