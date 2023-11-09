@@ -40,9 +40,49 @@ git rm --cached secret.sql
 
 Para tirar uma pasta e todos os arquivos dentro dessa pasta da staging area.
 ```bash
-git rm --cached -rf secret.sql
+git rm --cached -rf nome_pasta
 ```
 
+```bash
+git rm --cached -rf nome_pasta
+```
+
+Ver logs de informação dos commits
+```bash
+git log
+```
+
+```bash
+git log --name-status
+```
+
+```bash
+git log --pretty=oneline
+```
+
+```bash
+git log --abbrev-commit
+```
+
+```bash
+git log --stat
+```
+
+Trazer as alterações de forma resumida
+
+```bash
+git log -p
+```
+
+Trazer os últimos 3 commits
+```bash
+git log -3
+```
+
+Criar atalho para um comando
+```bash
+git config --global alias.co checkout
+```
 
 >### Dotfiles
 
