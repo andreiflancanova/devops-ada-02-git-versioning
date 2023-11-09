@@ -26,6 +26,24 @@ Para adicionar todos os arquivos dentro de um diretório e suas sub-pastas a sta
 git add .
 ```
 
+Desfazer as alterações que foram feitas depois do último commit
+
+```bash
+git checkout .
+```
+
+Para tirar um arquivo da staging area:
+
+```bash
+git rm --cached secret.sql
+```
+
+Para tirar uma pasta e todos os arquivos dentro dessa pasta da staging area.
+```bash
+git rm --cached -rf secret.sql
+```
+
+
 >### Dotfiles
 
 Dotfiles são arquivos que servem para guardar as configurações do nosso sistema operacional.
