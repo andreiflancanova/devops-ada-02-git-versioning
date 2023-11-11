@@ -37,4 +37,14 @@ git checkout -b develop
 git checkout -b tmp
 ```
 
-Adicionei esta linha para gerar um git diff.
+Para reverter as alterações sem 
+```bash
+git checkout nome_arquivo.txt
+```
+
+Se um merge der conflito, você pode cancelar o merge com 
+
+```bash
+git merge --abort
+```
+
