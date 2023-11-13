@@ -15,3 +15,15 @@ Para apagar uma branch:
 ```bash
 git branch -D
 ```
+
+Para ver a diferença entre dois commits
+```bash
+git diff main..develop
+```
+
+O problema de commits diferentes em um mesmo arquivo que geram conflito é a alteração em linhas próximas
+
+Para adicionar os arquivos e commitar em um comando só:
+```bash
+git commit -am "Commit message"
+```
